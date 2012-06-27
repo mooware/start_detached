@@ -16,6 +16,12 @@ Usage
 
 For example, `start_detached ping 8.8.8.8 -t` will keep a ping-command running in the background. Note that the first argument has to be an executable. To start a script, you have to explicitly call the interpreter.
 
+TODO
+----
+
+  * There are currently no options to redirect STDIN, STDOUT and STDERR of the detached program.
+  * **start_detached** returns as soon as the process is created. It can still fail to start after this, and **start_detached** will not report this. Maybe I could let it wait for the process to actually start.
+
 Build
 -----
 
