@@ -25,7 +25,7 @@ TODO
 Build
 -----
 
-A 32 bit build of **start_detached** is available in the Downloads section of the github repo page ([here](https://github.com/downloads/mooware/start_detached/start_detached.exe)).
+A 32 bit build of **start_detached** is available at http://dl.dropbox.com/u/267889/github/start_detached.exe.
 
 The repository also contains Visual Studio 2010 solution and project files. These can either be opened with the Visual Studio 2010 IDE, or used for building on the command line, for example with `devenv start_detached.sln /Build`.
 
